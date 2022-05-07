@@ -1,6 +1,6 @@
 import { ArrowLeft } from 'phosphor-react-native';
 import React from 'react';
-import { Image, Text, TextInput, TouchableOpacity, View } from 'react-native';
+import { Image, Text, TouchableOpacity, View } from 'react-native';
 import { FeedbackType } from '../../components/Widget';
 import { theme } from '../../theme';
 import { feedbackTypes } from '../../utils/feedbackTypes';
@@ -38,12 +38,12 @@ export function Form({ feedbackType }: Props) {
           </View>
       </View>
 
-      <TextInput 
+      {/* <TextInput 
         multiline
         style={styles.input}
         placeholder="Algo não está funcionando bem? Queremos corrigir. Conte com detalhes o que está acontecendo..."
         placeholderTextColor={theme.colors.text_secondary}
-      />
+      /> */}
       <View style={styles.footer}>
         <ScreenShotButton 
           onTakeShot={() => {}}
