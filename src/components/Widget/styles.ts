@@ -15,10 +15,6 @@ export const styles = StyleSheet.create({
     right: 16,
     bottom: getBottomSpace() + 16,
 
-    shadowColor: theme.colors.brand,
-    shadowRadius: 8,
-    shadowOpacity: 0.5,
-    elevation: 8,
   },
   modal: {
     backgroundColor: theme.colors.surface_primary,
@@ -28,5 +24,6 @@ export const styles = StyleSheet.create({
   indicator: {
     backgroundColor: theme.colors.text_primary,
     width: 56,
+    opacity: 0.25,
   }
 });
